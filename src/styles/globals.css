@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: black;
+}
+
 @font-face {
   font-family: "Home Christmas";
   src: url("./fonts/Home-Christmas/HomeChristmas.otf") format("truetype");
