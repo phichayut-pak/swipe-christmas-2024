@@ -30,6 +30,7 @@ const Story2 = () => {
                 className="z-0 absolute top-0 left-0 w-full h-full object-cover"
                 src="/STORY 2/STORY 2.mp4"
                 autoPlay
+                muted
             />
         </div>
     )
