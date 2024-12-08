@@ -10,6 +10,8 @@ export default function Home() {
       style={{
       backgroundImage: "url('/STORY 1/bg.png')",
       backgroundSize: "cover",
+      backgroundPosition: "center", // Ensures the image is centered
+      backgroundRepeat: "no-repeat" // Prevents repeating the background
       }}
     >
       <section className="flex flex-col items-center text-white">
