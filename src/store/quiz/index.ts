@@ -9,6 +9,8 @@ interface IUserState {
   name: string;
   age: string;
   gender: string;
+  ig: string | null;
+  mail: string;
 }
 
 interface IQuizState {
@@ -24,7 +26,7 @@ interface IQuizAction {
 
 const initialState: IQuizState = {
   answers: {},
-  user: { name: "", age: "", gender: "" },
+  user: { name: "", age: "", gender: "", ig: "", mail: "" },
   isFinished: false,
   pin: "",
 };
@@ -55,5 +57,7 @@ export const { selectQuiz, clearQuiz, setUser, setFinish, setPin } =
   quizSlice.actions;
 
 export const quizSelector = (state: RootState) => state.quiz;
+
+export const userSelector = (state: RootState) => state.quiz.user;
 
 export default quizSlice.reducer;
