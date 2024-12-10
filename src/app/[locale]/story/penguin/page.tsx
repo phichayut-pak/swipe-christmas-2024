@@ -35,61 +35,70 @@ const PenguinPage = () => {
                 backgroundSize: "cover",
             }}
         >
-            { level === 1 && (
+            <div className="w-full h-auto flex justify-center items-center relative">
+                <Image
+                    alt="text sign"
+                    src="/STORY 5-7/TEXT SIGN.png"
+                    width={344}
+                    height={319}
+                >
 
-                <div className="gap-6 text-2xl font-bold text-center flex flex-col justify-center items-center absolute h-56 w-80 top-40 left-1/2 transform -translate-x-1/2 text-black">
-                Hi, {user.name} <br/>
-                I'm Penguinny!
+                </Image>
+                { level === 1 && (
 
-                    <button onClick={() => setLevel(2)} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-8 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
-                        Next
-                    </button>
+                    <div className="absolute mb-16 flex flex-col justify-center items-center gap-6 text-2xl font-bold text-center text-black">
+                        Hi, {user.name} <br/>
+                        I'm Penguinny!
 
-                </div>
-            )}
+                        <button onClick={() => setLevel(2)} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-8 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
+                            Next
+                        </button>
+                    </div>
+                )}
 
-            { level === 2 && (
+                { level === 2 && (
 
-                <div className="gap-6 text-2xl font-bold text-center flex flex-col justify-center items-center absolute h-56 w-80 top-40 left-1/2 transform -translate-x-1/2 text-black">
-                    Are you ready to explore?
+                    <div className="absolute mb-16 flex flex-col justify-center items-center gap-6 text-2xl font-bold text-center text-black">
+                        Are you ready to explore?
 
-                    {choice === "" && (
-                        
-                        <div className="flex flex-col justify-center items-center gap-y-2">
-                            <button onClick={() => handleChoiceChange("yes")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
-                                Yes
-                            </button>
-
-                            <button onClick={() => handleChoiceChange("no")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-black">
-                                No
-                            </button>
-                        </div>
-                    )}
-
-                    {choice === "yes" && (
-                        
-                        <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-2xl rounded-lg py-5 px-20 bg-gradient-to-r from-[#39D68E] to-[#29A85F]">
-                                Yes!
-                            </button>
-                    
-                    )}
-
-
-                    {choice === "no" && (
+                        {choice === "" && (
                             
                             <div className="flex flex-col justify-center items-center gap-y-2">
-                            <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
-                                Yes
-                            </button>
+                                <button onClick={() => handleChoiceChange("yes")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
+                                    Yes
+                                </button>
 
-                            <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-black">
-                                Yes
-                            </button>
-                        </div>
-                    )}
+                                <button onClick={() => handleChoiceChange("no")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-black">
+                                    No
+                                </button>
+                            </div>
+                        )}
 
-                </div>
-            )}
+                        {choice === "yes" && (
+                            
+                            <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-2xl rounded-lg py-5 px-20 bg-gradient-to-r from-[#39D68E] to-[#29A85F]">
+                                    Yes!
+                                </button>
+                        
+                        )}
+
+
+                        {choice === "no" && (
+                                
+                                <div className="flex flex-col justify-center items-center gap-y-2">
+                                <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-gradient-to-r from-[#FAA98F] to-[#FD67AD]">
+                                    Yes
+                                </button>
+
+                                <button onClick={() => router.push("/quiz/1")} className="shadow-lg text-center text-white text-xl rounded-lg py-2 px-12 bg-black">
+                                    Yes
+                                </button>
+                            </div>
+                        )}
+
+                    </div>
+                )}
+            </div>
 
 
 
