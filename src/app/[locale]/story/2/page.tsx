@@ -31,6 +31,7 @@ const Story2 = () => {
                 src="/STORY 2/STORY 2.mp4"
                 autoPlay
                 muted
+                playsInline
             />
         </div>
     )
