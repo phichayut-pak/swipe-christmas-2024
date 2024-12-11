@@ -5,10 +5,13 @@ import NavBar from "@/components/Navbar";
 import { useTranslations, useLocale } from "next-intl";
 import { quizs } from "@/views/quiz/quiz";
 
-function Quiz({ params }: { params: { slug: string } }) {
+type Params = Promise<{ slug: string }>;
+
+async function Quiz(props: { params: Params}) {
   const t = useTranslations("quiz");
   const locale = useLocale();
   const imageChoices = ["7", "5"];
+  const params = await props.params
   return (
     <div
       className="w-full min-h-[100dvh] p-10"
