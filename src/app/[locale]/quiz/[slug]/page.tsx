@@ -5,18 +5,16 @@ import NavBar from "@/components/Navbar";
 import { useTranslations, useLocale } from "next-intl";
 import { quizs } from "@/views/quiz/quiz";
 
-type Params = Promise<{ slug: string }>;
-
-async function Quiz(props: { params: Params}) {
+function Quiz({ params }: { params: { slug: string } }) {
   const t = useTranslations("quiz");
   const locale = useLocale();
-  const imageChoices = ["7", "5"];
-  const params = await props.params
+  const quizImages = ["5", "7"]
+
   return (
     <div
       className="w-full min-h-[100dvh] p-10"
       style={{
-        backgroundImage: `${params.slug === "10" ? "url('/QUIZ/BACKGROUND QUIZ 2.png')" : "url('/QUIZ/BACKGROUND QUIZ 1.png')"}`,
+        backgroundImage: `url('/QUIZ/BACKGROUND QUIZ 1.png')`,
         backgroundSize: "100% 100%",
       }}
     >
@@ -25,7 +23,7 @@ async function Quiz(props: { params: Params}) {
         quizNumber={params.slug}
         question={t(`quiz-${params.slug}-problem`)}
         answers={
-          !imageChoices.includes(params.slug)
+          !quizImages.includes(params.slug)
             ? quizs[params.slug].answer.map((_, i) =>
                 t(`quiz-${params.slug}-answer-${i}`)
               )

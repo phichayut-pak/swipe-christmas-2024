@@ -7,6 +7,7 @@ import Head from "next/head";
 import {routing} from '@/i18n/routing';
 import NavBar from "@/components/Navbar";
 import { useRouter } from "next/navigation";
+import { NextIntlClientProvider } from "next-intl";
 
 const locales = ["en", "th"];
 
@@ -29,13 +30,14 @@ export const metadata: Metadata = {
     },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
     children,
-    params: { locale },
+    params,
 }: {
     children: React.ReactNode;
-    params: any;
+    params: Promise<{ locale: string }>;
 }) {
+    const { locale } = await params;
     if (!locales.includes(locale as any)) notFound();
     return (
         <StoreProvider>
