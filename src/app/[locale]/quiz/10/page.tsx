@@ -6,7 +6,7 @@ import Image from "next/image";
 import Quiz10Navbar from "@/components/Quiz10Navbar";
 import Quiz10Button from "@/components/Quiz10Button";
 
-function Quiz10({ params }: { params: { slug: string } }) {
+function Quiz10() {
   const t = useTranslations("quiz");
   const locale = useLocale();
 
