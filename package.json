@@ -33,6 +33,7 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.13",
     "@types/mixpanel-browser": "^2.50.2"
   }
 }

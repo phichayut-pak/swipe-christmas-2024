@@ -48,3 +48,21 @@ font-face {
   font-style: italic;
   font-weight: 200;
 }
+
+@keyframes giggle {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+.giggle {
+  animation: giggle 0.1s infinite;
+}

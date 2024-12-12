@@ -21,4 +21,13 @@ module.exports = {
   },
 }
 
+module.exports.theme.extend.animation = {
+  giggle: 'giggle 1s ease-in-out infinite',
+};
 
+module.exports.theme.extend.keyframes = {
+  giggle: {
+    '0%, 100%': { transform: 'translateX(0)' },
+    '50%': { transform: 'translateX(-10px)' },
+  },
+};

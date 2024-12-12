@@ -5,6 +5,8 @@ import { useAppDispatch, useAppSelector } from "@/store/hook";
 import { switchSound } from "@/store/sound";
 import Image from "next/image";
 
+
+
 interface NavBarProp {
     locale: string;
     isTextBlack?: boolean;
@@ -25,9 +27,10 @@ function NavBar({ locale, isTextBlack = false }: NavBarProp) {
         dispatch(switchSound());
     };
 
+
     return (
-        <section className="flex items-center justify-between mb-4">
-        <div className="w-7 ">
+        <section className={`flex items-center mb-4 ${pathname === "/waiting" ? "justify-center" : "justify-between"}`}>
+        <div className={`w-7 ${pathname === "/waiting" && "hidden"}`}>
             <label className="flex items-center relative w-max cursor-pointer select-none">
             <input
                 type="checkbox"
@@ -68,7 +71,7 @@ function NavBar({ locale, isTextBlack = false }: NavBarProp) {
         >
             Swipe 2024
         </p>
-        <div className="text-white w-14">
+        <div className={`text-white w-14 ${pathname === "/waiting" && "hidden"}`}>
             <label className="flex items-center relative w-max cursor-pointer select-none">
             <input
                 onClick={changeLanguage}
