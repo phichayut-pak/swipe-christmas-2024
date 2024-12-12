@@ -49,9 +49,10 @@ const Surprise = () => {
             </div>
 
 
-            <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+            <div className="w-full flex justify-center items-center mt-10">
                 <IgContact></IgContact>
             </div>
+
 
         </div>
     )

@@ -9,7 +9,7 @@ function IgContact() {
   };
   return (
     <button
-      className="flex gap-2 justify-center align-middle"
+      className="flex gap-2 justify-center items-center align-middle"
       onClick={clickToIg}
     >
       <Image
