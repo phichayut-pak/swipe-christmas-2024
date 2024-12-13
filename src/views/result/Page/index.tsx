@@ -11,6 +11,7 @@ import { setFinish } from "@/store/quiz";
 import { quizs } from "@/views/quiz/quiz";
 import { useTranslations, useLocale } from "next-intl";
 import { trackResultPage } from "@/mixpanels";
+import ResultFooter from "../ResultFooter";
 
 function Result() {
     const t = useTranslations("result");
@@ -157,16 +158,12 @@ function Result() {
             </div>
             </div>
         </section>
-        {/* {resultInfo?.id && (
+        {resultInfo?.id && (
             <ResultFooter
-            downloadPath={
-                locale == "en" ? resultInfo.download : resultInfo.downloadTh
-            }
-            downloadVideoPath={
-                locale == "en" ? resultInfo.downloadVdo : resultInfo.downloadVdoTh
-            }
+            downloadPath={resultInfo.download}
+            downloadVideoPath={resultInfo.downloadVdo}
             />
-        )} */}
+        )}
         </div>
     );
 }

@@ -5,9 +5,7 @@ interface IResultInfo {
     subDesc: string;
     image: string;
     download: string;
-    downloadTh: string;
     downloadVdo: string;
-    downloadVdoTh: string;
     matchings: string[];
 }
 
@@ -25,9 +23,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Frosty the Snowman.png",
         matchings: ["2", "3", "4"],
         download: "/background/result-cool-freezy-snowman.png",
-        downloadTh: "/background/result-cool-freezy-snowman-th.png",
         downloadVdo: "/video/result-cool-freezy-snowman.mp4",
-        downloadVdoTh: "/video/result-cool-freezy-snowman-th.mp4",
     },
     "2": {
         id: "2",
@@ -38,9 +34,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/A Fluffy polar bear.png",
         matchings: ["2", "5", "7"],
         download: "/background/result-just-a-penguin.png",
-        downloadTh: "/background/result-just-a-penguin-th.png",
         downloadVdo: "/video/just-a-penguin.mp4",
-        downloadVdoTh: "/video/just-a-penguin-th.mp4",
     },
     "3": {
         id: "3",
@@ -51,9 +45,7 @@ export const results: IResult = {
             image: "/CHARACTER/GLOBE VERSION/Bravery Nutcracker.png",
         matchings: ["1", "5", "8"],
         download: "/background/result-artistic-pine-tree.png",
-        downloadTh: "/background/result-artistic-pine-tree-th.png",
         downloadVdo: "/video/result-artistic-pine-tree.mp4",
-        downloadVdoTh: "/video/result-artistic-pine-tree-th.mp4",
     },
     "4": {
         id: "4",
@@ -64,9 +56,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Aesthetic Pinetree.png",
         matchings: ["2", "7", "9"],
         download: "/background/result-little-elves.png",
-        downloadTh: "/background/result-little-elves-th.png",
         downloadVdo: "/video/result-little-elves.mp4",
-        downloadVdoTh: "/video/result-little-elves-th.mp4",
     },
     "5": {
         id: "5",
@@ -77,9 +67,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Twinny Marshmallow.png",
         matchings: ["10", "8", "7"],
         download: "/background/result-dizzy-glittering-champagne.png",
-        downloadTh: "/background/result-dizzy-glittering-champagne-th.png",
         downloadVdo: "/video/result-dizzy-glittering-champagne.mp4",
-        downloadVdoTh: "/video/result-dizzy-glittering-champagne-th.mp4",
     },
     "6": {
         id: "6",
@@ -90,9 +78,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Glamorously Ballerina.png",
         matchings: ["4", "10", "9"],
         download: "/background/result-naughty-sock.png",
-        downloadTh: "/background/result-naughty-sock-th.png",
         downloadVdo: "/video/result-naughty-sock.mp4",
-        downloadVdoTh: "/video/result-naughty-sock-th.mp4",
     },
     "7": {
         id: "7",
@@ -103,9 +89,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Twisty Candy Cane.png",
         matchings: ["5", "10", "6"],
         download: "/background/result-gingerbread-eatery-cookie.png",
-        downloadTh: "/background/result-gingerbread-eatery-cookie-th.png",
         downloadVdo: "/video/result-gingerbread-eatery-cookie.mp4",
-        downloadVdoTh: "/video/result-gingerbread-eatery-cookie-th.mp4",
     },
     "8": {
         id: "8",
@@ -116,9 +100,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Glowy North Star.png",
         matchings: ["10", "9", "5"],
         download: "/background/result-cozy-santa.png",
-        downloadTh: "/background/result-cozy-santa-th.png",
         downloadVdo: "/video/result-cozy-santa.mp4",
-        downloadVdoTh: "/video/result-cozy-santa-th.mp4",
     },
     "9": {
         id: "9",
@@ -129,9 +111,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Santa baby.png",
         matchings: ["10", "6", "8"],
         download: "/background/result-trendy-tasty-reindeer.png",
-        downloadTh: "/background/result-trendy-tasty-reindeer-th.png",
         downloadVdo: "/video/result-trendy-tasty-reindeer.mp4",
-        downloadVdoTh: "/video/result-trendy-tasty-reindeer-th.mp4",
     },
     "10": {
         id: "10",
@@ -142,9 +122,7 @@ export const results: IResult = {
         image: "/CHARACTER/GLOBE VERSION/Trendy Tasty Reindeer.png",
         matchings: ["9", "8", "6"],
         download: "/background/result-trendy-tasty-reindeer.png",
-        downloadTh: "/background/result-trendy-tasty-reindeer-th.png",
         downloadVdo: "/video/result-trendy-tasty-reindeer.mp4",
-        downloadVdoTh: "/video/result-trendy-tasty-reindeer-th.mp4",
     },
   };
   
