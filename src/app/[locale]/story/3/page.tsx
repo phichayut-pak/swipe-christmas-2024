@@ -38,7 +38,7 @@ const Story3 = () => {
                 name: nickname,
                 age: age,
                 gender: gender,
-                ig: ig === "" ? null : ig,
+                ig: ig,
                 mail: mail,
             })
         )

@@ -9,7 +9,7 @@ interface IUserState {
   name: string;
   age: string;
   gender: string;
-  ig: string | null;
+  ig: string;
   mail: string;
 }
 
@@ -21,7 +21,7 @@ interface IQuizState {
 }
 interface IQuizAction {
   quiz: string;
-  ans: number;
+  ans: any;
 }
 
 const initialState: IQuizState = {

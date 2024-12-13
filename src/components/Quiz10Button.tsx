@@ -1,9 +1,14 @@
 "use client"
 import { useRouter } from "@/navigation"
+import { useAppDispatch } from "@/store/hook";
+import { selectQuiz } from "@/store/quiz";
 
-const Quiz10Button = ({ children } : { children : string}) => {
+const Quiz10Button = ({ children, text } : { children : string, text: string}) => {
     const router = useRouter();
+    const dispatch = useAppDispatch();
     const onSubmit = () => {
+        dispatch(selectQuiz({ quiz: "10", ans: text }));
+        console.log(text)
         router.push(`/surprise`);
     };
 

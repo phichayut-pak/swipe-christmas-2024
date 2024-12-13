@@ -18,11 +18,11 @@ interface IResult {
 export const results: IResult = {
     "1": {
         id: "1",
-        title: "Cool Freezy Snowman",
+        title: "Frosty The Snowman",
         desc: "A cool, independent soul who enjoys observing with a calm vibe",
         subDesc:
             "You bring a cool breeze to every holiday moment! You are a uniquely cool and independent person, finding happiness in observing others. Your cozy home is your relaxed haven that makes you feel calm and at peace.",
-        image: "/image/result-cool-freezy-snowman.png",
+        image: "/CHARACTER/GLOBE VERSION/Frosty the Snowman.png",
         matchings: ["2", "3", "4"],
         download: "/background/result-cool-freezy-snowman.png",
         downloadTh: "/background/result-cool-freezy-snowman-th.png",
@@ -31,11 +31,11 @@ export const results: IResult = {
     },
     "2": {
         id: "2",
-        title: "A Fluffy polar bear",
+        title: "A Fluffy Polar Bear",
         desc: "A neutral character who always seeks balance in every situation",
         subDesc:
             "You are the mediator when things get complicated.  You always create a perfect balance of happiness and peace! but you love to be with people and enjoy some quiet time too. Your presence brings positivity to your friends!",
-        image: "/image/result-poppy-doppy-penguin.png",
+        image: "/CHARACTER/GLOBE VERSION/A Fluffy polar bear.png",
         matchings: ["2", "5", "7"],
         download: "/background/result-just-a-penguin.png",
         downloadTh: "/background/result-just-a-penguin-th.png",
@@ -48,7 +48,7 @@ export const results: IResult = {
         desc: "A heart-warming leader who everyone relies on",
         subDesc:
             "You are the quiet strength everyone relies on. Your bravery and discipline help you bring peace to even the most chaotic situations >< You have your own charm and your presence always make people feel calm and pleasant",
-        image: "/image/result-artistic-pine-tree.png",
+            image: "/CHARACTER/GLOBE VERSION/Bravery Nutcracker.png",
         matchings: ["1", "5", "8"],
         download: "/background/result-artistic-pine-tree.png",
         downloadTh: "/background/result-artistic-pine-tree-th.png",
@@ -61,7 +61,7 @@ export const results: IResult = {
         desc: "A modern artist who blends creativity with social charm.",
         subDesc:
             "You’re the aesthetics heart of the holidays! With your modern vibes and creative touch, you light up every room with a style. You love being around people just enough to share your artistic vibes, but you also treasure moments of calm to let your creativity flow.",
-        image: "/image/result-little-elves.png",
+        image: "/CHARACTER/GLOBE VERSION/Aesthetic Pinetree.png",
         matchings: ["2", "7", "9"],
         download: "/background/result-little-elves.png",
         downloadTh: "/background/result-little-elves-th.png",
@@ -74,7 +74,7 @@ export const results: IResult = {
         desc: "A fun spirit who thrives vibrant friendships.",
         subDesc:
             "You’re the fun, playful one who’s always sticking close to your friends! With your trendy style and youthful energy, you bring joy to everyone that you meet!",
-        image: "/image/result-dizzy-glittering-champagne.png",
+        image: "/CHARACTER/GLOBE VERSION/Twinny Marshmallow.png",
         matchings: ["10", "8", "7"],
         download: "/background/result-dizzy-glittering-champagne.png",
         downloadTh: "/background/result-dizzy-glittering-champagne-th.png",
@@ -87,7 +87,7 @@ export const results: IResult = {
         desc: "glamorous soul who shines with beauty and elegance",
         subDesc:
             "You are glamorous and cutesy, always catching people’s attention with your elegance and beauty! Your graceful movements and charms always create positive vibes to your friends!",
-        image: "/image/result-naughty-sock.png",
+        image: "/CHARACTER/GLOBE VERSION/Glamorously Ballerina.png",
         matchings: ["4", "10", "9"],
         download: "/background/result-naughty-sock.png",
         downloadTh: "/background/result-naughty-sock-th.png",
@@ -100,7 +100,7 @@ export const results: IResult = {
         desc: "A lively one who brings joy to every gathering",
         subDesc:
             "You’re the life of the party! You are always full of energy and fun because you know how to turn every moment into a celebration. With your extroverted nature and love for a good time, you make sure everyone’s having the best party during the holidays!",
-        image: "/image/result-gingerbread-eatery-cookie.png",
+        image: "/CHARACTER/GLOBE VERSION/Twisty Candy Cane.png",
         matchings: ["5", "10", "6"],
         download: "/background/result-gingerbread-eatery-cookie.png",
         downloadTh: "/background/result-gingerbread-eatery-cookie-th.png",
@@ -113,7 +113,7 @@ export const results: IResult = {
         desc: "An adventurous spirit who seeks energy from new places!",
         subDesc:
             "You’re the adventurous spirit lighting up the holidays! You are always ready to explore and bring excitement to every occasion. With your active nature and boundless energy, you keep things moving and bring a sense of wonder to every holiday adventure.",
-        image: "/image/result-cozy-santa.png",
+        image: "/CHARACTER/GLOBE VERSION/Glowy North Star.png",
         matchings: ["10", "9", "5"],
         download: "/background/result-cozy-santa.png",
         downloadTh: "/background/result-cozy-santa-th.png",
@@ -126,7 +126,7 @@ export const results: IResult = {
         desc: "A playful mysterious soul who leaves a lasting impression.",
         subDesc:
             "You are the hidden magic of Christmas!  Your playful, mysterious nature keeps people guessing, and every time you appear, it’s a moment to treasure. You bring a sense of excitement and wonder that can’t be found anywhere else.",
-        image: "/image/result-trendy-tasty-reindeer.png",
+        image: "/CHARACTER/GLOBE VERSION/Santa baby.png",
         matchings: ["10", "6", "8"],
         download: "/background/result-trendy-tasty-reindeer.png",
         downloadTh: "/background/result-trendy-tasty-reindeer-th.png",
@@ -139,7 +139,7 @@ export const results: IResult = {
         desc: "A stylish trendsetter who loves aesthetics and cool vibes.",
         subDesc:
         "You’re always the trendsetter! You inspire others with your fashionable choices and love for all things aesthetic. Whether it’s a chic café to visit or exploring the latest trends, you make everything look effortlessly stylish and cool.",
-        image: "/image/result-trendy-tasty-reindeer.png",
+        image: "/CHARACTER/GLOBE VERSION/Trendy Tasty Reindeer.png",
         matchings: ["9", "8", "6"],
         download: "/background/result-trendy-tasty-reindeer.png",
         downloadTh: "/background/result-trendy-tasty-reindeer-th.png",
