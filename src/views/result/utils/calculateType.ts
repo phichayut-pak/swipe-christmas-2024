@@ -18,6 +18,11 @@ export const calculateResult = (answers: IAnswerState): string => {
   };
 
   for (const [key, value] of Object.entries(answers)) {
+    // Ignore non-numeric keys or keys greater than "9"
+    if (isNaN(Number(key)) || Number(key) > 9) {
+      continue;
+    }
+
     const quizPointInfo = quizPoint[key][value];
     let index = 1;
     for (const [keyP, valueP] of Object.entries(quizPointInfo)) {

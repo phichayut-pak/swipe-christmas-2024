@@ -46,19 +46,14 @@ function Result() {
         }
         formData.append(fields[fields.length - 1], resultInfo.title);
 
-        console.log(resultInfo.title)
+        console.log(process.env.NEXT_PUBLIC_GOOGLE_FORM_URL + "?" + formData.toString())
 
-        const url = process.env.NEXT_PUBLIC_GOOGLE_FORM_URL ? process.env.NEXT_PUBLIC_GOOGLE_FORM_URL + "?" + formData.toString() : "";
-        if (url) {
-            await fetch(url, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-            }).catch((error) => console.error("Error submitting quiz:", error));
-        } else {
-            console.error("Google Form URL is not defined");
-        }
+        await fetch(process.env.NEXT_PUBLIC_GOOGLE_FORM_URL || "", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+        }).catch();
 
     };
 

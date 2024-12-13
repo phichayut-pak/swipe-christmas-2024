@@ -50,7 +50,7 @@ function QuizSection({ quizNumber, question, answers }: QuizCardProps) {
       () =>
         +quizNumber < Object.keys(quizs).length+1 // for christmas 2024, there are 9 quizzes and 1 short answer
           ? router.push(`/quiz/${+quizNumber + 1}`)
-          : router.push("/pin"),
+          : router.push("/"),
       300
     );
   };

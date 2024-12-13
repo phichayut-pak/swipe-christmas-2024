@@ -2,12 +2,15 @@
 import { useRouter } from "@/navigation"
 import { useAppDispatch } from "@/store/hook";
 import { selectQuiz } from "@/store/quiz";
+import { setFinish } from "@/store/quiz";
+
 
 const Quiz10Button = ({ children, text } : { children : string, text: string}) => {
     const router = useRouter();
     const dispatch = useAppDispatch();
     const onSubmit = () => {
         dispatch(selectQuiz({ quiz: "10", ans: text }));
+        dispatch(setFinish());
         console.log(text)
         router.push(`/surprise`);
     };
