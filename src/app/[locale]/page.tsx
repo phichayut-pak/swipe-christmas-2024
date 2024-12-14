@@ -8,10 +8,10 @@ export default function Home() {
     <div
       className="w-full min-h-[100dvh] p-10 bg-center bg-no-repeat"
       style={{
-      backgroundImage: "url('/STORY 1/bg.png')",
-      backgroundSize: "cover",
-      backgroundPosition: "center", // Ensures the image is centered
-      backgroundRepeat: "no-repeat" // Prevents repeating the background
+        backgroundImage: "url('/STORY 1/bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center", // Ensures the image is centered
+        backgroundRepeat: "no-repeat", // Prevents repeating the background
       }}
     >
       <section className="flex flex-col items-center text-white">
@@ -27,11 +27,10 @@ export default function Home() {
             width={30}
             style={{ height: 30, width: 30 }}
           />
+          <h1 className="text-sm font-semibold absolute right-0">
+            Swipes 2024
+          </h1>
         </div>
-        <h1 className="text-xl font-bold">Personality Test</h1>
-        <h1 className="text-sm font-extralight">
-          Swipe’s 2024 Christmas Edition
-        </h1>
       </section>
 
       <section className="flex items-end absolute bottom-14 left-0 w-2/3 right-0 mx-auto">
