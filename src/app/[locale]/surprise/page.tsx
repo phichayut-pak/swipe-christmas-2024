@@ -26,7 +26,7 @@ const Surprise = () => {
       <div className="w-full relative flex flex-col justify-center items-center">
         <Image
           alt="surprise"
-          src="/SPECIAL PRIZES/PRIZES_group.svg"
+          src="/SPECIAL PRIZES/PRIZES_group.png"
           width={317}
           height={473}
         ></Image>
