@@ -27,9 +27,7 @@ export default function Home() {
             width={30}
             style={{ height: 30, width: 30 }}
           />
-          <h1 className="text-sm font-semibold absolute right-0">
-            Swipes 2024
-          </h1>
+          <h1 className="text-sm font-semibold absolute right-0">Swipe 2024</h1>
         </div>
       </section>
 
