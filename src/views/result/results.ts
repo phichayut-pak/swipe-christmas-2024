@@ -53,7 +53,7 @@ export const results: IResult = {
     desc: "A modern artist who blends creativity with social charm.",
     subDesc:
       "You’re the aesthetics heart of the holidays! With your modern vibes and creative touch, you light up every room with a style. You love being around people just enough to share your artistic vibes, but you also treasure moments of calm to let your creativity flow.",
-    image: "/CHARACTER/GLOBE VERSION/Aesthetic Pinetree.png",
+    image: "/CHARACTER/GLOBE VERSION/Aesthetic Pine Tree.png",
     matchings: ["2", "7", "9"],
     download: "/background/result-aesthetic-pine-tree.png",
     downloadVdo: "/video/result-aesthetic-pine-tree.mp4",
