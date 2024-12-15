@@ -65,35 +65,45 @@ function NavBar({ locale, isTextBlack = false }: NavBarProp) {
           ></span>
         </label>
       </div>{" "}
+      {/* Swipe Text */}
       <p
-        className={`absolute translate-x-1/2 right-1/2 flex top-10 items-center justify-center text-sm text-center font-bold font-inter ${
+        className={`${
+          pathname.startsWith("/result") ? "top-10" : "top-1"
+        } flex absolute translate-x-1/2 right-1/2  items-center justify-center text-sm text-center font-bold font-inter ${
           isTextBlack ? "text-black" : "text-white"
         }`}
       >
         Swipe 2024
       </p>
-      <div className="flex flex-col items-center justify-center">
-        <div className="flex items-center justify-center gap-1 mb-2">
-          <Image
-            priority
-            alt="logo"
-            src="/logo/logo-punpro.png"
-            height={28}
-            width={28}
-            className="size-7"
-          />
-          <Image
-            priority
-            alt="logo"
-            src="/logo/logo-camphub.png"
-            height={28}
-            width={28}
-            className="size-7"
-          />
-        </div>
-        <div
-          className={`text-white w-14 ${pathname === "/waiting" && "hidden"}`}
-        >
+      {/* Sponsor logos and change language */}
+      {/* style={pathname.startsWith("/waiting") ? { display: "none" } : {}} */}
+      <div
+        className={`${
+          pathname.startsWith("/waiting") && "hidden"
+        } flex flex-col items-center`}
+      >
+        {pathname.startsWith("/result") && (
+          <div className="flex items-center justify-center mb-2">
+            <Image
+              priority
+              alt="logo"
+              src="/logo/logo-punpro.png"
+              height={28}
+              width={28}
+              className="size-7"
+            />
+            <Image
+              priority
+              alt="logo"
+              src="/logo/logo-camphub.png"
+              height={28}
+              width={28}
+              className="size-7"
+            />
+          </div>
+        )}
+        {/* Change language */}
+        <div className="text-white w-14">
           <label className="relative flex items-center cursor-pointer select-none w-max">
             <input
               onClick={changeLanguage}

@@ -86,7 +86,7 @@ function Result() {
 
   return (
     <div
-      className="w-full min-h-[100dvh] px-10 py-7 flex flex-col justify-center gap-5 bg-center bg-no-repeat bg-cover "
+      className="w-full min-h-[100dvh] px-10 py-7 flex flex-col justify-center gap-0 bg-center bg-no-repeat bg-cover "
       style={{
         backgroundImage: `${
           resultInfo.id === "10"
@@ -97,8 +97,8 @@ function Result() {
     >
       <NavBar locale={locale} />
 
-      <section className="flex flex-col justify-center w-full gap-5 p-4 align-middle rounded-2xl">
-        <div className="flex flex-col items-center">
+      <section className="flex flex-col justify-center w-full gap-2 px-4 py-1 align-middle rounded-2xl">
+        <div className="flex flex-col items-center gap-1">
           <Image
             priority
             alt="logo"
@@ -127,12 +127,12 @@ function Result() {
             <div style={{ height: "190px" }} />
           )}
 
-          <p className="text-lg italic">
+          <p className="text-base italic leading-5">
             {resultInfo?.id ? t(`result-${resultInfo.id}-title`) : ""}
           </p>
           <p
             className={`font-extralight ${
-              locale === "en" ? "text-sm " : "text-md"
+              locale === "en" ? "text-xs" : "text-md"
             }`}
           >
             {resultInfo?.id ? t(`result-${resultInfo.id}-desc`) : ""}
@@ -140,7 +140,7 @@ function Result() {
         </div>
 
         <div className="text-center">
-          <p className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FD6FA4] to-[#FBD345]">
+          <p className="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FD6FA4] to-[#FBD345]">
             {t("matchingPeers")}
           </p>
           <div className="flex justify-center gap-4 mt-3">
