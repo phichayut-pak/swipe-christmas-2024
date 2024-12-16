@@ -40,7 +40,7 @@ export const quizPoint: IQuizPoint = {
       "Twinny Marshmallow": 5,
       "Glamorously Ballerina": 5,
       "Boogie twisty Candy Cane": 3,
-      "Glowwy Sparkle North Stars": 3,
+      "Glowwy Sparkle North Stars": 5,
       "Santa baby": 3,
       "Trendy Hopper Reindeer": 3
     }
@@ -66,7 +66,7 @@ export const quizPoint: IQuizPoint = {
       "Twinny Marshmallow": 5,
       "Glamorously Ballerina": 5,
       "Boogie twisty Candy Cane": 5,
-      "Glowwy Sparkle North Stars": 5,
+      "Glowwy Sparkle North Stars": 3,
       "Santa baby": 5,
       "Trendy Hopper Reindeer": 5
     },
@@ -104,7 +104,7 @@ export const quizPoint: IQuizPoint = {
       "Twinny Marshmallow": 3,
       "Glamorously Ballerina": 3,
       "Boogie twisty Candy Cane": 5,
-      "Glowwy Sparkle North Stars": 5,
+      "Glowwy Sparkle North Stars": 3,
       "Santa baby": 5,
       "Trendy Hopper Reindeer": 5
     },
@@ -156,7 +156,7 @@ export const quizPoint: IQuizPoint = {
       "Boogie twisty Candy Cane": 3,
       "Glowwy Sparkle North Stars": 3,
       "Santa baby": 3,
-      "Trendy Hopper Reindeer": 3
+      "Trendy Hopper Reindeer": 1
     },
     "1": {
       "Frosty the Snowman": 1,
@@ -218,7 +218,7 @@ export const quizPoint: IQuizPoint = {
       "Boogie twisty Candy Cane": 1,
       "Glowwy Sparkle North Stars": 1,
       "Santa baby": 1,
-      "Trendy Hopper Reindeer": 1
+      "Trendy Hopper Reindeer": 0
     },
     "2": {
       "Frosty the Snowman": 1,
@@ -230,7 +230,7 @@ export const quizPoint: IQuizPoint = {
       "Boogie twisty Candy Cane": 1,
       "Glowwy Sparkle North Stars": 1,
       "Santa baby": 0,
-      "Trendy Hopper Reindeer": 0
+      "Trendy Hopper Reindeer": 1
     },
     "3": {
       "Frosty the Snowman": 1,
@@ -267,7 +267,7 @@ export const quizPoint: IQuizPoint = {
       "Glamorously Ballerina": 1,
       "Boogie twisty Candy Cane": 0,
       "Glowwy Sparkle North Stars": 1,
-      "Santa baby": 1,
+      "Santa baby": 0,
       "Trendy Hopper Reindeer": 1
     },
     "1": {
@@ -279,7 +279,7 @@ export const quizPoint: IQuizPoint = {
       "Glamorously Ballerina": 0,
       "Boogie twisty Candy Cane": 1,
       "Glowwy Sparkle North Stars": 0,
-      "Santa baby": 0,
+      "Santa baby": 1,
       "Trendy Hopper Reindeer": 1
     },
     "2": {
@@ -329,7 +329,7 @@ export const quizPoint: IQuizPoint = {
       "Glamorously Ballerina": 0,
       "Boogie twisty Candy Cane": 3,
       "Glowwy Sparkle North Stars": 1,
-      "Santa baby": 0,
+      "Santa baby": 3,
       "Trendy Hopper Reindeer": 0
     },
     "2": {
@@ -341,7 +341,7 @@ export const quizPoint: IQuizPoint = {
       "Glamorously Ballerina": 3,
       "Boogie twisty Candy Cane": 3,
       "Glowwy Sparkle North Stars": 3,
-      "Santa baby": 3,
+      "Santa baby": 1,
       "Trendy Hopper Reindeer": 3
     },
     "3": {
