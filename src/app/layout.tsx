@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     siteName: "Swipe",
     images: [
       {
-        url: "https://swipe-christmas-web.vercel.app/background/og-image.png",
+        url: "https://swipe-christmas-2024.vercel.app/web_bg.png",
         width: 800,
         height: 600,
       },
