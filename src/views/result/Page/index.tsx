@@ -12,6 +12,7 @@ import { quizs } from "@/views/quiz/quiz";
 import { useTranslations, useLocale } from "next-intl";
 import { trackResultPage } from "@/mixpanels";
 import ResultFooter from "../ResultFooter";
+import axios from "axios";
 
 function Result() {
   const t = useTranslations("result");
@@ -49,19 +50,28 @@ function Result() {
       process.env.NEXT_PUBLIC_GOOGLE_FORM_URL + "?" + formData.toString()
     );
 
-    await fetch(process.env.NEXT_PUBLIC_GOOGLE_FORM_URL || "", {
-      method: "POST",
-      headers: {
+    try {
+      const result = await axios.post(
+      process.env.NEXT_PUBLIC_GOOGLE_FORM_URL || "",
+      formData.toString(),
+      {
+        headers: {
         "Content-Type": "application/x-www-form-urlencoded",
-      },
-    }).catch();
+        },
+      }
+      );
+    } catch (error) {
+      console.error("Error submitting quiz:", error);
+    }
+
   };
 
   useEffect(() => {
     if (
-      Object.keys(quizSelection.answers).length === Object.keys(quizs).length &&
-      !quizSelection.isFinished
+      Object.keys(quizSelection.answers).length === 10 &&
+      quizSelection.isFinished
     ) {
+      console.log("hi")
       trackResultPage();
       submitQuiz();
       localStorage.setItem("quiz", JSON.stringify(quizSelection.answers));
