@@ -23,7 +23,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Frosty the Snowman.png",
     matchings: ["2", "3", "4"],
     download: "/background/result-frosty-the-snowman.png",
-    downloadVdo: "/video/result-frosty-the-snowman.mp4",
+    downloadVdo: "/video/result-frosty-the-snowman.mov",
   },
   "2": {
     id: "2",
@@ -34,7 +34,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/A Fluffy polar bear.png",
     matchings: ["2", "5", "7"],
     download: "/background/result-a-fluffy-polar-bear.png",
-    downloadVdo: "/video/result-a-fluffy-polar-bear.mp4",
+    downloadVdo: "/video/result-a-fluffy-polar-bear.mov",
   },
   "3": {
     id: "3",
@@ -45,7 +45,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Bravery Nutcracker.png",
     matchings: ["1", "5", "8"],
     download: "/background/result-bravery-nutcracker.png",
-    downloadVdo: "/video/result-bravery-nutcracker.mp4",
+    downloadVdo: "/video/result-bravery-nutcracker.mov",
   },
   "4": {
     id: "4",
@@ -56,7 +56,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Aesthetic Pine Tree.png",
     matchings: ["2", "7", "9"],
     download: "/background/result-aesthetic-pine-tree.png",
-    downloadVdo: "/video/result-aesthetic-pine-tree.mp4",
+    downloadVdo: "/video/result-aesthetic-pine-tree.mov",
   },
   "5": {
     id: "5",
@@ -67,7 +67,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Twinny Marshmallow.png",
     matchings: ["10", "8", "7"],
     download: "/background/result-twinny-marshmallow.png",
-    downloadVdo: "/video/result-twinny-marshmallow.mp4",
+    downloadVdo: "/video/result-twinny-marshmallow.mov",
   },
   "6": {
     id: "6",
@@ -78,7 +78,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Glamorously Ballerina.png",
     matchings: ["4", "10", "9"],
     download: "/background/result-glamorously-ballerina.png",
-    downloadVdo: "/video/result-glamorously-ballerina.mp4",
+    downloadVdo: "/video/result-glamorously-ballerina.mov",
   },
   "7": {
     id: "7",
@@ -89,7 +89,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Twisty Candy Cane.png",
     matchings: ["5", "10", "6"],
     download: "/background/result-twisty-candy-cane.png",
-    downloadVdo: "/video/result-twisty-candy-cane.mp4",
+    downloadVdo: "/video/result-twisty-candy-cane.mov",
   },
   "8": {
     id: "8",
@@ -100,7 +100,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Glowy North Star.png",
     matchings: ["10", "9", "5"],
     download: "/background/result-glowy-north-star.png",
-    downloadVdo: "/video/result-glowy-north-star.mp4",
+    downloadVdo: "/video/result-glowy-north-star.mov",
   },
   "9": {
     id: "9",
@@ -111,7 +111,7 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Santa baby.png",
     matchings: ["10", "6", "8"],
     download: "/background/result-santa-baby.png",
-    downloadVdo: "/video/result-santa-baby.mp4",
+    downloadVdo: "/video/result-santa-baby.mov",
   },
   "10": {
     id: "10",
@@ -122,6 +122,6 @@ export const results: IResult = {
     image: "/CHARACTER/GLOBE VERSION/Trendy Tasty Reindeer.png",
     matchings: ["9", "8", "6"],
     download: "/background/result-trendy-tasty-reindeer.png",
-    downloadVdo: "/video/result-trendy-tasty-reindeer.mp4",
+    downloadVdo: "/video/result-trendy-tasty-reindeer.mov",
   },
 };
