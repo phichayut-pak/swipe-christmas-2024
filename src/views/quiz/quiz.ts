@@ -18,7 +18,12 @@ export const quizs: IQuiz = {
   },
   "3": {
     question: "What's your social style?",
-    answer: ["Party animal 🎉", "Enjoy being observer 🌿", "Social Butterfly🫶🏼", "Solo☕️"],
+    answer: [
+      "Party animal 🎉",
+      "Enjoy being observer 🌿",
+      "Social Butterfly🫶🏼",
+      "Solo☕️",
+    ],
   },
   "4": {
     question: "WWhich season do you love the most?",
@@ -36,12 +41,7 @@ export const quizs: IQuiz = {
   },
   "6": {
     question: "You are going out today! What Scent of Perfume will you use?",
-    answer: [
-      "Floral🌸",
-      "Fruity🍋",
-      "Wood🪵",
-      "Fresh bubble 🫧",
-    ],
+    answer: ["Floral🌸", "Fruity🍋", "Wood🪵", "Fresh bubble 🫧"],
   },
   "7": {
     question: "It’s time for decorations, Choose your favorite ornaments!",
@@ -54,21 +54,16 @@ export const quizs: IQuiz = {
   },
   "8": {
     question: "Who do you want to be with on Christmas day?",
-    answer: [
-      "Friends 🎅",
-      "Lover 💑",
-      "Family 👨‍👩‍👦",
-      "Pets 🐶",
-      "Alone 😎",
-    ],
+    answer: ["Friends 🎅", "Lover 💑", "Family 👨‍👩‍👦", "Pets 🐶", "Alone 😎"],
   },
   "9": {
-    question: "What type of Christmas gift do you want to give to your important person?",
+    question:
+      "What type of Christmas gift do you want to give to your beloved person?",
     answer: [
       "Handmade gifts 🎁",
       "Time Spending🩵",
       "Clothes & Accessories 👗",
-      "Gift cards 💳"
+      "Gift cards 💳",
     ],
   },
 };
