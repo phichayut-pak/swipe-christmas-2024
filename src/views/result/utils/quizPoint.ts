@@ -153,7 +153,7 @@ export const quizPoint: IQuizPoint = {
       "Crafty Chic Pine Tree": 3,
       "Twinny Marshmallow": 3,
       "Glamorously Ballerina": 3,
-      "Boogie twisty Candy Cane": 3,
+      "Boogie twisty Candy Cane": 1,
       "Glowwy Sparkle North Stars": 3,
       "Santa baby": 3,
       "Trendy Hopper Reindeer": 1
@@ -265,7 +265,7 @@ export const quizPoint: IQuizPoint = {
       "Crafty Chic Pine Tree": 0,
       "Twinny Marshmallow": 1,
       "Glamorously Ballerina": 1,
-      "Boogie twisty Candy Cane": 0,
+      "Boogie twisty Candy Cane": 1,
       "Glowwy Sparkle North Stars": 1,
       "Santa baby": 0,
       "Trendy Hopper Reindeer": 1
